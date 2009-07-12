@@ -1,0 +1,42 @@
+<!ENTITY title "Quantum Astrology">
+
+<!ENTITY net.proxy.direct "No proxy">
+<!ENTITY net.proxy.manual "Manual proxy configuration">
+<!ENTITY net.proxy.auto "Automatic proxy configuration via script">
+
+<!ENTITY menu.file.label "File">
+<!ENTITY menu.file.accesskey "F">
+<!ENTITY menu_file.exit.label "Exit">
+<!ENTITY menu_file.exit.accesskey "x">
+
+<!ENTITY menu.settings.label "Settings">
+<!ENTITY menu.settings.accesskey "S">
+<!ENTITY menu_settings.pref.label "Preferences">
+<!ENTITY menu_settings.pref.accesskey "P">
+<!ENTITY menu_settings.extensions.label "Extension manager">
+<!ENTITY menu_settings.extensions.accesskey "E">
+<!ENTITY menu_settings.api.label "API keys">
+<!ENTITY menu_settings.api.accesskey "A">
+
+<!ENTITY menu_settings.preferences.label "Preferences">
+<!ENTITY menu_settings.preferences.accesskey "P">
+
+<!ENTITY api.acct.list.title "Account list">
+<!ENTITY api.char.list.title "Characters">
+
+<!ENTITY api.id.title "ID">
+<!ENTITY api.limited.title "Limited key">
+<!ENTITY api.full.title "Full key">
+
+<!ENTITY api.check "Check">
+<!ENTITY api.add "Add">
+<!ENTITY api.remove "Remove">
+<!ENTITY api.close "Close">
+
+
+<!ENTITY exports.title "Market Exports">
+<!ENTITY exports.browse "Browse">
+
+<!ENTITY api.incorrect "Incorrect credentials">
+
+<!ENTITY exit_confirm "Really quit Quantum Astrology?">

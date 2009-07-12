@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspects>
+    <aspect id="0" name="conjunction" min="0" max="27.41" />
+    <aspect id="1" name="square" min="83.04" max="96" />
+    <aspect id="2" name="trine" min="110.46" max="128.34" />
+    <aspect id="3" name="opposition" min="166.09" max="180" />
+</aspects>

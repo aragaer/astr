@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://eve_helper/locale/eve_helper.dtd">
+
+<dialog
+  title="&app.title;"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  onload="onLoad();"
+  buttons="accept"
+  buttonpack="center">
+  
+  <script src="about.js" type="text/javascript"/>
+  
+  <hbox align="start">
+    <image src="resource:/chrome/icons/simple.ico" width="32" height="32"/>
+    <vbox align="left">
+      <label value="aragaer eve_helper 0.1"/>
+      <label value="aragaer"/>
+      <label value="Version 0.1"/>
+      <label value="Build 20090103"/>
+    </vbox>
+  </hbox>
+</dialog>

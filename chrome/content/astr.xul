@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="astr.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % astr SYSTEM "chrome://astr/locale/astr.dtd">
+%astr;
+]>
+
+<window id="main" title="&title;" width="800" height="600"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	onload="onLoad();"
+	persist="screenX screenY width height sizemode">
+
+<script type="application/x-javascript" src="chrome://astr/content/general.js"/>
+<script type="application/x-javascript" src="chrome://astr/content/level0.js"/>
+<script type="application/x-javascript" src="chrome://astr/content/actions.js"/>
+
+    <command id="File:Exit" oncommand="quit()"/>
+
+    <label id="quit-label" value="&exit_confirm;" hidden="true" />
+    
+    <toolbar id="main-toolbar">
+        <toolbaritem>
+            <menubar id="main-menubar" statusbar="statusbar-display"
+                     style="border:0px;padding:0px;margin:0px;float:left;">
+                <menu label="&menu.file.label;" accesskey="&menu.file.accesskey;">
+                    <menupopup id="menu_FilePopup">
+                        <menuitem label="&menu_file.exit.label;"
+                                  accesskey="&menu_file.exit.accesskey;"
+                                  command="File:Exit"/>
+                    </menupopup>
+                </menu>
+            </menubar>
+        </toolbaritem>
+    </toolbar>
+    <hbox flex="1">
+        <grid id="lvl0" flex="1" style="padding:10px">
+            <columns>
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+                <column />
+            </columns>
+            <rows>
+                <row>
+                    <spacer />
+                    <image src="chrome://astr/content/img/__01-aries.gif" />
+                    <image src="chrome://astr/content/img/__02-taurus.gif" />
+                    <image src="chrome://astr/content/img/__03-gemini.gif" />
+                    <image src="chrome://astr/content/img/__04-cancer.gif" />
+                    <image src="chrome://astr/content/img/__05-leo.gif" />
+                    <image src="chrome://astr/content/img/__06-virgo.gif" />
+                    <image src="chrome://astr/content/img/__07-libra.gif" />
+                    <image src="chrome://astr/content/img/__08-scorpio.gif" />
+                    <image src="chrome://astr/content/img/__09-sagittarius.gif" />
+                    <image src="chrome://astr/content/img/__10-capricorn.gif" />
+                    <image src="chrome://astr/content/img/__11-aquarius.gif" />
+                    <image src="chrome://astr/content/img/__12-pisces.gif" />
+                </row>
+                <row id="sun"><image src="chrome://astr/content/img/_01-sun.gif"/></row>
+                <row id="moon"><image src="chrome://astr/content/img/_02-moon.gif"/></row>
+                <row id="mercury"><image src="chrome://astr/content/img/_03-mercury.gif"/></row>
+                <row id="venus"><image src="chrome://astr/content/img/_04-venus.gif"/></row>
+                <row id="mars"><image src="chrome://astr/content/img/_05-mars.gif"/></row>
+                <row id="jupiter"><image src="chrome://astr/content/img/_06-jupiter.gif"/></row>
+                <row id="saturn"><image src="chrome://astr/content/img/_07-saturn.gif"/></row>
+                <row id="chiron"><image src="chrome://astr/content/img/_08-chiron.gif"/></row>
+                <row id="uranus"><image src="chrome://astr/content/img/_09-uranus.gif"/></row>
+                <row id="neptune"><image src="chrome://astr/content/img/_10-neptune.gif"/></row>
+                <row id="pluto"><image src="chrome://astr/content/img/_11-pluto.gif"/></row>
+                <row id="rahu"><image src="chrome://astr/content/img/_12-rahu.gif"/></row>
+                <row id="ketu"><image src="chrome://astr/content/img/_13-ketu.gif"/></row>
+                <row id="selena"><image src="chrome://astr/content/img/_14-selena.gif"/></row>
+                <row id="lilith"><image src="chrome://astr/content/img/_15-lilith.gif"/></row>
+                <row id="toma"><image src="chrome://astr/content/img/_16-toma.gif"/></row>
+                <row id="ascendent"><image src="chrome://astr/content/img/_17-ascendent.gif"/></row>
+            </rows>
+       </grid>
+        <tree id="levels" flex="1">
+            <treecols />
+            <treechildren />
+        </tree>
+    </hbox>
+    <hbox>
+        <spacer flex="1"/>
+        <label id="status"/>
+    </hbox>
+</window>
+
